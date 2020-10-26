@@ -1,0 +1,48 @@
+.Main4__box{
+	display: flex;
+	justify-content: space-between;	
+}
+.Main__content-chair{
+	width:280px;
+	height: 360px;
+	
+}
+.Main__content-img{
+	max-width:258px;
+
+}
+.Main__content-chair-img{
+	width:258px;
+	height: 258px;
+}
+.Main__content-chair-txt{
+	font-family: 'Poiret One', cursive;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	font-size: 15px;
+	color:black;
+	margin-top: 270px;
+}
+.Main__content-chair-price{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	font-size: 13px;
+	color:black;
+}
+.Chair{
+	position:relative; 
+   	width:258px;
+	height: 258px;
+}
+.Chair img{
+	left: 0; 
+    position:absolute; 
+    top: 0; 
+}
+.Chair img.chair1_ {opacity:0;filter:alpha(opacity=0);}
+.Chair:hover img.chair1_ {opacity:1;filter:alpha(opacity=100);}
+.Chair:hover img.chair1, .Chair img.chair1:hover {opacity:0;filter:alpha(opacity=0);}
+
+
+

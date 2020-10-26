@@ -1,0 +1,48 @@
+.Main1__box{
+	display: flex;
+	justify-content: space-between;	
+}
+.Main__content-furniture{
+	width:280px;
+	height: 360px;
+	
+}
+.Main__content-img{
+	max-width:258px;
+
+}
+.Main__content-furniture-img{
+	width:258px;
+	height: 258px;
+}
+.Main__content-furniture-txt{
+	font-family: 'Poiret One', cursive;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	font-size: 15px;
+	color:black;
+	margin-top: 270px;
+}
+.Main__content-furniture-price{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	font-size: 13px;
+	color:black;
+}
+.Sofa{
+	position:relative; 
+   	width:258px;
+	height: 258px;
+}
+.Sofa img{
+	left: 0; 
+    position:absolute; 
+    top: 0; 
+}
+.Sofa img.sofa1_ {opacity:0;filter:alpha(opacity=0);}
+.Sofa:hover img.sofa1_ {opacity:1;filter:alpha(opacity=100);}
+.Sofa:hover img.sofa1, .Sofa img.sofa1:hover {opacity:0;filter:alpha(opacity=0);}
+
+
+

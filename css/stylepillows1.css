@@ -1,0 +1,136 @@
+.work-item {
+	position: relative;
+}
+.work-item:before {
+	position: absolute;
+	content: "";
+	background-color: rgba(255, 255, 255, 0.45);
+	width:258px;
+	height: 258px;
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+.work-item:hover::before {
+	opacity: 1;
+	width:258px;
+	height: 258px;
+}
+.item-wrap img {
+	width: 100%;
+}
+.item-grid {
+	width: 33.33%;
+	float: left;
+}
+.description-div{
+	width:258px;
+	height: 258px;
+	position:absolute;
+	left:0;
+	top:0;
+
+}
+.project-description  {
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index: 1;
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s all ease-in-out;
+	
+	
+}
+.project-description li{
+	list-style:none;
+	margin: 0px -35px;
+	font-family: 'Poiret One', cursive;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	width:258px;
+	padding: 3px 0px;
+	font-size: 15px;
+}
+.project-description h3{
+	margin-top:5px;
+	margin-left: 10px;
+	font-family: 'Poiret One', cursive;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #000;
+	font-size: 20px;
+}
+.project-description h3 a::before {
+	border-bottom: 1px solid #232323;
+	bottom: 225;
+	content: "";
+	height: 1px;
+	margin-left: 10px;
+	left: 0;
+	position: absolute;
+	width: 50px;
+}
+.project-description a{
+	text-decoration: none;
+	color:black;
+}
+.work-item:hover .project-description {
+	opacity: 1;
+	visibility: visible;
+	right: 15px;
+	transition-delay: 0.5s;
+}
+.Main1_2__box{
+	display: flex;
+	
+}
+.Main2_2__box{
+	display: flex;
+	margin-top: 10px;
+}
+.Main2__content-pillows{
+	width:280px;
+	height: 360px;
+	margin:0px 20px 20px 0px;	
+}
+.Main__content-pillows{
+	width:280px;
+	height: 360px;
+	margin:0px 40px 40px 0px;	
+}
+.Main__content-img{
+	max-width:258px;
+
+}
+.Main__content-pillows-img{
+	width:258px;
+	height: 258px;
+}
+.Main__content-pillows-txt{
+	font-family: 'Poiret One', cursive;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	font-size: 15px;
+	color:black;
+	margin-top: 270px;
+}
+.Main__content-pillows-price{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	font-size: 13px;
+	color:black;
+}
+.Main__content-pillows-desc{
+	font-family: 'Poiret One', cursive;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	font-size: 15px;
+	color:black;
+}
+
+a{
+	text-decoration: underline;
+	color:black;
+}

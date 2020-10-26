@@ -1,0 +1,55 @@
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+.header {
+  text-align: center;
+}
+.header a {
+  text-decoration: none;
+  color: #64ada3;
+}
+
+.accordion {
+  width: 100%;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.accordion-item .heading {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4b827a;
+  font-weight: 700;
+  font-size: 1rem;
+  position: relative;
+  padding:  5px 15px 5px 0px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+@media (min-width: 40rem) {
+  .accordion-item .heading {
+    font-size: 15px;
+  }
+}
+.accordion-item .heading:hover {
+  color: black;
+}
+
+
+.accordion-item .content {
+  display: none;
+}
+.accordion-item .content p {
+  margin-top: 0;
+}
+@media (min-width: 40rem) {
+  .accordion-item .content {
+    line-height: 1.75;
+  }
+}
